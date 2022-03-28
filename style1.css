@@ -32,3 +32,32 @@ body{
   margin: 10px;
   font-size: 25px;
 }
+#tempcondition{
+  font-size: 30px;;
+}
+#searchlocation{
+  height: 45px;
+  width: 350px;
+  border-radius: 10px;
+  border-style: none;
+
+  font-size: 20px;
+}
+input:focus{
+  outline: none;
+}
+::placeholder{
+  color: deepskyblue;
+  font-size: 20px;
+}
+.button{
+  height: 35px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: aquamarine;
+}
+.button:hover{
+  background-color: steelblue;
+  color: white;
+  box-shadow: 5px 5px white;
+}
